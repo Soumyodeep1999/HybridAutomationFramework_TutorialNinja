@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T23:09:47 IST" name="Default suite" finished-at="2024-09-21T23:10:05 IST" duration-ms="18221">
+    <groups>
+    </groups>
+    <test started-at="2024-09-21T23:09:47 IST" name="Default test" finished-at="2024-09-21T23:10:05 IST" duration-ms="18221">
+      <class name="testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SearchTest@6a6cb05c]" started-at="2024-09-21T23:09:48 IST" name="setup" finished-at="2024-09-21T23:09:55 IST" duration-ms="6948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="seachWithExsistingProductNameFromHomePage(java.lang.String)[pri:0, instance:testcases.SearchTest@6a6cb05c]" started-at="2024-09-21T23:09:55 IST" name="seachWithExsistingProductNameFromHomePage" data-provider="ValidProduct" finished-at="2024-09-21T23:09:55 IST" duration-ms="515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachWithExsistingProductNameFromHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchTest@6a6cb05c]" started-at="2024-09-21T23:09:55 IST" name="tearDown" finished-at="2024-09-21T23:09:57 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SearchTest@6a6cb05c]" started-at="2024-09-21T23:09:57 IST" name="setup" finished-at="2024-09-21T23:10:01 IST" duration-ms="4413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="seachWithNonExsistingProductNameFromHomePage()[pri:0, instance:testcases.SearchTest@6a6cb05c]" started-at="2024-09-21T23:10:01 IST" name="seachWithNonExsistingProductNameFromHomePage" finished-at="2024-09-21T23:10:03 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachWithNonExsistingProductNameFromHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SearchTest@6a6cb05c]" started-at="2024-09-21T23:10:03 IST" name="tearDown" finished-at="2024-09-21T23:10:05 IST" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
